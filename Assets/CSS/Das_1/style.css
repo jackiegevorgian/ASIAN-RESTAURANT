@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* 
+body{
+    background-image: url(./i.webp);
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* div{
+    margin-top: 100px;
+} */
+/* 
+.xndzor{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Header{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+
+.Header>h1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    /* font-style: italic; */
+/* text-transform: capitalize; */
+/* text-transform: uppercase; */
+/* text-transform: lowercase; */
+/* font-weight:100; */
+/* } */
+
+/* .Text_Box{
+    width: 40%;
+    height: 400px;
+    background-color: green;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 20px;
+}
+.Text_Box>p{
+    text-align: center;
+}
+
+.div1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.div2{
+    width: 20%;
+    height: 200px;
+    background-color: orange;
+}
+.div3{
+    width: 60%;
+    height: 100px;
+    background-color: red;
+}
+
+.Image_Box{
+    width: 30%;
+    height: 300px;
+    background-color: red; */
+/* margin-left: 35%;
+    margin-top: 150px; */
+/* margin: 150px auto;
+    background-image: url(./i.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat; */
+/* background-size: 170%;
+    background-position: right; */
+/* } */
+
+/* .text{
+    width: 100%; */
+/* height: 100px; */
+/* background-color: gray;
+    padding: 40px; */
+/* } */
+
+/* .text>span{ */
+/* width: 100%; */
+/* display: block; */
+/* font-size: 40px;
+    color: whitesmoke;
+    font-style: italic;
+    text-transform: capitalize;
+    background-color: red;
+    margin-left: 45%;
+    padding: 15px;
+    font-weight: 900;
+    /* text-decoration: underline; */
+/* text-decoration: line-through; */
+/* } */
+
+/* .Product{
+    width: 300px;
+    height: 400px;
+    margin-left:23px;
+    background-color: red;
+    float: left;
+}
+
+.Product_Img{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255) */
+/* background-image: url(./1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+/* } */
+
+/* .Product_Img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Product_Info{
+    width: 100%;
+    height: auto;
+    background-color: rgb(70, 70, 70);
+    padding: 5px 20px;
+}
+.Product_Info>div{
+    margin-top: 10px;
+}
+.Product_Info h3{
+    color: white;
+}
+.Product_Info span{
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
+.Product_Info p{
+    color: orange;
+}
+.Product_Info button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+} */
+
+.Product {
+    width: 300px;
+    height: auto;
+    background-color: rgb(29, 28, 28);
+}
+
+.Product_Img {
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+}
+
+.Product_Info {
+    padding:20px;
+}
+.Product_Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Product_Info h2 {
+    color: rgb(219, 138, 39);
+    width: 100%;
+    text-align: left;
+}
+
+.Product_Info div {
+    margin-top: 10px;
+}
+
+.Product_Info span {
+    color: rgb(173, 102, 15);
+    font-weight: 100;
+    font-style: italic;
+}
+
+.Product_Info p {
+    color: rgb(223, 133, 24);
+}
+
+.Product_Info button {
+    padding: 10px 20px;
+    background-color: rgb(233, 129, 3);
+    color: white;
+}

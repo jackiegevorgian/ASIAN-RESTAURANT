@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(136, 136, 192);
+}
+
+/* .gallery{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(33, 32, 73);
+}
+.gallery>div{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(104, 121, 168);
+    float: left;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gallery>div:first-child{
+background-image: url(./1.webp);
+transition: 1s;
+transform: rotate(15deg);
+}
+.gallery>div:first-child:hover{
+    transform: rotate(0);
+    background-color: brown;
+}
+.gallery>div:nth-child(2){
+    background-image: url(./2.webp);
+    transition: 0.4s;
+}
+.gallery>div:nth-child(2):hover{
+    transform: scale(1.3);
+}
+.gallery>div:nth-child(3){
+    background-image: url(./3.webp);
+    border-radius: 50%;
+    border: dotted 10px rgb(33, 81, 168);
+    transition: 0.4s;
+}
+.gallery>div:nth-child(3):hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.gallery>div:last-child{
+    background-image: url(./4.webp);
+    border-radius: 50%;
+    border: double 15px rgb(0, 59, 168);
+    transition: 0.8s;
+}
+.gallery>div:last-child:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:scale(1.3) ;
+} */
+
+.box {
+    width: 100%;
+    height: 230px;
+
+}
+
+.box>div {
+    width: 100px;
+    height: 200px;
+    background-color: orangered;
+    float: left;
+    margin-left: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box>div:first-child {
+    animation: boo 3s forwards;
+}
+
+@keyframes boo {
+    from {
+        width: 100px;
+        height: 200px;
+        background-color: orangered;
+    }
+
+    to {
+        width: 150px;
+        height: 250px;
+        background-color: yellow;
+    }
+}
+
+.box>div:nth-child(2) {
+    animation: box 2s forwards;
+}
+
+@keyframes box {
+    from {
+        width: 100px;
+        height: 200px;
+        background-color: orangered;
+    }
+
+    to {
+        width: 200px;
+        height: 300px;
+        background-color: greenyellow;
+        border-radius: 50%;
+    }
+}
+
+.box>div:nth-child(3) {
+    animation: product 3s forwards;
+    position: absolute;
+}
+
+@keyframes product {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: 0;
+        left: 20%;
+    }
+
+    40% {
+        left: 25%;
+        top: 40%;
+    }
+
+    60% {
+        top: 40%;
+        left: 35%;
+        border-radius: 50%;
+    }
+
+    70% {
+        left: 35%;
+        top: 0;
+    }
+
+    80% {
+        top: 0%;
+        left: 45%;
+        border-radius: 50%;
+    }
+
+    100% {
+        top: 50%;
+        left: 65%;
+
+    }
+}
+
+.box>div:last-child {
+    animation: productt 3s alternate;
+    position: absolute
+}
+
+@keyframes productt {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+
+    10% {
+        top: 0%;
+        left: 15%;
+    }
+
+    20% {
+        left: 20%;
+        top: 30%;
+    }
+
+    30% {
+        top: 30%;
+        left: 40%;
+        border-radius: 50%;
+        background-color: rgb(121, 47, 136);
+    }
+
+    40% {
+        left: 40%;
+        top: 0;
+    }
+
+    50% {
+        top: 0%;
+        left: 60%;
+        border-radius: 80%;
+        background-color: rgb(118, 197, 39);
+    }
+
+    60% {
+        left: 60%;
+        top: 40%;
+        background-color: rgb(219, 124, 0);
+    }
+
+    70% {
+        top: 40%;
+        left: 80%;
+    }
+
+    80% {
+        left: 80%;
+        top: 0%;
+    }
+
+    90% {
+        left: 90%;
+        top: 0;
+    }
+
+    100% {
+        left: 90%;
+        top: 0%;
+    }
+}
+
+.btn {
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    border: none;
+    color: white;
+    background-color: orange;
+    animation: btn 2s linear infinite;
+}
+
+@keyframes btn {
+    0% {
+        background-color: orange;
+        transform: scale(1);
+    }
+
+    20% {
+        background-color: orangered;
+        transform: scale(1.1);
+    }
+
+    40% {
+        background-color: rgb(104, 20, 104);
+        transform: scale(1);
+    }
+
+    60% {
+        background-color: blue;
+        transform: scale(1.1);
+    }
+
+    80% {
+        background-color: brown;
+        transform: scale(1);
+    }
+
+    100% {
+        background-color: orange;
+        transform: scale(1.1);
+    }
+}

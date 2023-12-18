@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Product {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 100px auto;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.Product:hover{
+    width: 600px;
+}
+/* .Product:hover .Product_Info{
+    left: 50%;
+} */
+.Product_Img {
+    min-width: 300px;
+    /* position: absolute; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Product:hover .Product_Img img{
+    transform: rotate(25deg) translateX(25px) translateY(-40px);
+    filter: drop-shadow( 0 10px 15px rgba(0, 0, 0, 0.562));
+}
+
+.Product_Img img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transition: 0.4s;
+    filter: drop-shadow( 0 10px 15px rgba(0, 0, 0, 0.301));
+}
+
+.Product_Info{
+    min-width: 300px;
+    /* position: absolute; */
+    left: 100%;
+    height: 100%;
+    transition: 0.4s;
+    padding: 20px;
+    background-color: rgb(49, 121, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Product_Info>div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+}
+
+.Product_Info button{
+    padding: 12px 15px;
+    font-weight: 600;
+    transition: 0.4s;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+.Product_Info button:hover{
+    background-color: rgb(58, 58, 255);
+    color: white;
+}
+.Product_Info h3 {
+    color: white;
+}
+
+.Product_Info p {
+    color: white;
+}
+.Product_Info span{
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+input {
+    visibility: hidden;
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+
+.header {
+    width: 90%;
+    margin: 50px auto;
+    height: auto;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 80px;
+}
+
+.Logo {
+    width: 200px;
+    height: 80px;
+    /* background-color: aliceblue; */
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Menu {
+    width: 600px;
+    height: auto;
+}
+
+.Menu ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu li {
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.Menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.Menu a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.About_Box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_Box>div{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+    margin: 15px;
+}
+
+.About_Box>div:last-child{
+    background-image: url(./banner-02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    body {
+        /* background-color: orange; */
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .header {
+        position: relative;
+        height: 100px;
+    }
+
+    label {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 27%;
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        /* background-color: red; */
+    }
+    .Menu {
+        position: absolute;
+        top: 100%;
+        width: 400px;
+        height: 0;
+        overflow: hidden;
+        background-color: aliceblue;
+        transition: 0.4s;
+        left: 28%;
+    }
+
+    #Menu_Btn:checked ~ .Menu {
+        height: 320px;
+    }
+
+
+    .Menu ul {
+        flex-direction: column;
+    }
+
+    .Menu li {
+        width: 80%;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.295);
+    }
+
+    .Menu a {
+        text-align: center;
+    }
+
+    .About_Box{
+        flex-direction: column-reverse;
+    }
+    .About_Box>div{
+        width: 800px;
+    }
+    .About_Box>div:last-child{
+        background-size: contain;
+    }
+
+    body {
+        /* background-color: gray; */
+    }
+}
+
+@media only screen and (min-width:552px) and (max-width:768px) {
+    body {
+        /* background-color: green; */
+    }
+
+    .header {
+        position: relative;
+        height: 100px;
+    }
+
+    label {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 27%;
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        /* background-color: red; */
+    }
+    .Menu {
+        position: absolute;
+        top: 100%;
+        width: 85%;
+        height: 0;
+        overflow: hidden;
+        background-color: aliceblue;
+        transition: 0.4s;
+        left: 7.5%;
+    }
+
+    #Menu_Btn:checked ~ .Menu {
+        height: 320px;
+    }
+
+
+    .Menu ul {
+        flex-direction: column;
+    }
+
+    .Menu li {
+        width: 80%;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.295);
+    }
+
+    .Menu a {
+        text-align: center;
+    }
+    .About_Box{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .About_Box>div{
+        width: 100%;
+    }
+    .About_Box>div:last-child{
+        background-size: contain;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:552px) {
+    body {
+        /* background-color: orangered; */
+    }
+
+    .header {
+        position: relative;
+        height: 100px;
+    }
+
+    label {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 27%;
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        /* background-color: red; */
+    }
+    .Menu {
+        position: absolute;
+        top: 100%;
+        width: 85%;
+        height: 0;
+        overflow: hidden;
+        background-color: aliceblue;
+        transition: 0.4s;
+        left: 7.5%;
+    }
+
+    #Menu_Btn:checked ~ .Menu {
+        height: 320px;
+    }
+
+
+    .Menu ul {
+        flex-direction: column;
+    }
+
+    .Menu li {
+        width: 80%;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.295);
+    }
+
+    .Menu a {
+        text-align: center;
+    }
+    .About_Box{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .About_Box>div{
+        width: 100%;
+    }
+    .About_Box>div:last-child{
+        background-size: contain;
+    }
+    
+}

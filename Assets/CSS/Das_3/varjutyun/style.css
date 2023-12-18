@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* .div{
+    width: 250px;
+    height: 250px;
+    /* background-color: red; */
+    /* margin: 100px auto;
+    border-radius: 30px;
+    border: 10px dashed orange;
+    transition: all 1s;
+    box-shadow: 0 10px 20px rgba(17, 17, 17, 0.212);
+}
+.div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.div:hover{
+    border: 10px dashed green;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(29, 29, 29, 0.863);
+    transform: translateY(-50px) scale(1.1);
+}
+
+.Product{
+    width: 300px;
+    background-color: rgb(34, 32, 32);
+    height: auto;
+    margin: 80px auto;
+    transition: 0.4s;
+    box-shadow:  0 15px 15px rgba(0, 0, 0, 0.349);
+}
+.Product:hover{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.644);
+    transform: translateY(5px);
+}
+
+.Product_Img{
+    width: 100%;
+    height: 250px;
+    background-color: aliceblue;
+}
+.Product_Img img{
+    height: 90%;
+    width: 80%;
+    margin-left: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.Product:hover .Product_Img>img{
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.Product_Info{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+.Product:hover .Product_Info{
+    opacity: 1;
+    height: 220px;
+    padding: 20px;
+}
+.Product_Info>div{
+    margin-top: 10px;
+}
+.Product_Info h3{
+    color: rgb(211, 110, 38);
+    width: 100%;
+}
+.Product_Info span{
+    color: chocolate;
+    font-weight: 80%;
+    font-style: italic;
+}
+.Product_Info p{
+    color: rgb(235, 96, 45);
+}
+.Product_Info button{
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: black;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.267);
+    border:  3px solid transparent;
+}
+
+.Product_Info button:hover{
+    background-color: rgb(20, 20, 20);
+    border:  3px solid orange;
+    transform: translateY(5px);
+    box-shadow:  0 15px 20px rgba(0, 0, 0, 0.719);
+    color: orange;
+} */ 
+
+.Product{
+    width: 300px;
+    background-color: antiquewhite;
+    height: auto;
+    margin: 80px auto;
+    transition: 0.4s;
+    box-shadow: 0 15px 15px bisque;
+}
+.Product:hover{
+    box-shadow: 0 15px 25px bisque;
+    transform: translateY(5px);
+}
+.Product_Img{
+    width: 100%;
+    height: 250px;
+    background-color: bisque;
+}
+.Product_Img img{
+    height: 90%;
+    width: 80%;
+    margin-left: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.Product:hover .Product_Img>img{
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.Product_Info{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+.Product:hover .Product_Info{
+    opacity: 1;
+    height: 220px;
+    padding: 20px;
+}
+.Product_Info>div{
+    margin-top: 20px;
+}
+.Product_Info h3{
+    color: rgb(104, 65, 18);
+    width: 100%;
+}
+.Product_Info span{
+    color: rgb(138, 86, 49);
+    font-weight: 80%;
+    font-style: italic;
+}
+.Product_Info p{
+    color: rgb(177, 108, 25);
+}
+.Product_Info button{
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: black;
+    border-radius: 30%;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.267);
+    border: 3px solid transparent;
+}
+.Product_Info button:hover{
+    background-color: rgb(20, 20, 20);
+    border:  3px solid orange;
+    transform: translateY(5px);
+    box-shadow:  0 15px 20px rgba(0, 0, 0, 0.719);
+    color: orange;
+}

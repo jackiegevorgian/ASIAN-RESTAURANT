@@ -1,0 +1,1079 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 80px;
+    background-color: #eaf0ff;
+    position: relative;
+}
+
+.header div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.Logo a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.Menu_Btn{
+    visibility: hidden;
+    display: none;
+}
+label{
+    display: none;
+}
+
+#Menu_Box {
+    border-top: 1px solid rgba(139, 139, 139, 0.24);
+}
+
+#Menu_Box ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#Menu_Box li {
+    margin: 10px;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 0.4s;
+    box-shadow: 0 10px 15px rgba(129, 129, 129, 0.178);
+}
+
+#Menu_Box li:hover {
+    box-shadow: 0 10px 15px rgba(129, 129, 129, 0.349);
+    transform: translateY(-5px);
+}
+
+#Menu_Box a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.Banner_Box {
+    padding: 150px 0;
+    background-image: url(./Assets/Banner_Img/banner-bg.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner_Box>div {
+    width: 620px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Banner_Box>div>div {
+    margin: 10px;
+}
+
+.Banner_Box>div h4 {
+    color: white;
+}
+
+.Banner_Box>div h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.Banner_Box>div p {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.Banner_Box>div button {
+    background-color: #f2745f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Banner_Box>div button:hover {
+    background-color: #ee7e6b;
+}
+
+.Cook_Delecious {
+    width: 100%;
+    padding: 150px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cook_Delecious div{
+    margin: 5px;
+}
+
+.Cook_Delecious>div span {
+    margin: 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.Cook_Delecious>div span:first-child {
+    font-size: 10px;
+    border: none;
+    border-radius: none;
+}
+
+.Cook_Delecious>div:nth-child(2)>div:nth-child(3) span {
+    border-radius: 20px;
+    border: 1px solid #b65f50;
+    padding: 3px 5px;
+}
+
+.Cook_Delecious>div button {
+    color: #f2745f;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Cook_Delecious>div button:hover {
+    color: whitesmoke;
+    background-color: #f39685;
+    transform: scale(1);
+}
+
+.Cook_Delecious>div h3 {
+    color: white;
+}
+
+.Cook_Delecious>div:first-child {
+    width: 300px;
+    height: 200px;
+    background-image: url(./Assets/Cook_delecion/cook_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Cook_Delecious>div:nth-child(2) {
+    width: 300px;
+    background-color: #f2745f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(1.2);
+    padding: 30px 20px;
+}
+
+.Cook_Delecious>div:last-child {
+    height: 200px;
+    width: 300px;
+    background-image: url(./Assets/Cook_delecion/cook_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Cook_Delecious>div:nth-child(2)>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ee7e6b;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.dishes {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishes a {
+    width: 200px;
+    height: 230px;
+    margin: 20px;
+    /* background-color: #b65f50; */
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+}
+
+.dishes a:hover img {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.26);
+    transform: translateY(-10px) rotate(-15deg);
+}
+
+.dishes a:hover h4 {
+    color: gray;
+}
+
+.dishes h4 {
+    text-align: center;
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+
+.dishes>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #b65f50; */
+    flex-direction: column;
+}
+
+.dishes img {
+    border: solid #eaf0ff 10px;
+    border-radius: 50%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.185);
+    transition: 0.4s;
+}
+
+.Reservation_Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ee7e6b;
+    padding: 20px;
+    background-image: url(./Assets/Reservation/book-bg.jpg);
+}
+
+.Reservation_Container>div>h2 {
+    color: white;
+}
+
+.Reservation_Container>div {
+    margin: 35px;
+}
+
+.Reservation_Box {
+    width: 700px;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reservation_Img {
+    width: 50%;
+    height: 100%;
+}
+
+.Reservation_Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Reservation_Info {
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Reservation_Info h2 {
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.Reservation_Info>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reservation_Info>div>div {
+    width: 45%;
+    background-color: white;
+    margin: 10px;
+}
+
+.Reservation_Info select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 10px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(99, 98, 98, 0.37);
+}
+
+.Reservation_Info input {
+    padding: 8px 15px;
+    width: 45%;
+    margin: 10px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(99, 98, 98, 0.37);
+}
+
+.Reservation_Info button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f2745f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Reservation_Info button:hover {
+    background-color: #f39685;
+}
+
+.Reservation_Info>div:nth-child(4) select {
+    width: 100%;
+    margin: 0;
+}
+
+.Application_Box {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #f2745f;
+}
+
+.Application_Box>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.Application_Box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Application_Box button {
+    background-color: white;
+    color: #f2745f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 15px 20px;
+    transition: 0.4s;
+}
+
+.Application_Box button:hover {
+    background-color: #d69388;
+    color: #b65f50;
+}
+
+.Featured_Food_Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.Featured_Food_Container>div {
+    margin: 30px;
+}
+
+.Featured_Food_Container>div>h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.Featured_Food_Box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Featured_Food {
+    width: 370px;
+    height: auto;
+    margin: 10px;
+    padding: 30px;
+    background-color: #f2f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Featured_Food>div h2 {
+    width: 100%;
+    font-weight: 400;
+}
+
+.Featured_Food_Info h3 {
+    font-weight: 400;
+}
+
+.Featured_Food>div:first-child {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(53, 53, 53, 0.185);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Featured_Food_Img {
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.Featured_Food:nth-child(2) .Featured_Food_Img::before {
+    content: '$ 7.50';
+}
+
+.Featured_Food:nth-child(3) .Featured_Food_Img::before {
+    content: '$ 12.50';
+}
+
+.Featured_Food_Img::before {
+    content: '$ 4.50';
+    position: absolute;
+    padding: 10px 20px;
+    color: #b65f50;
+    background-color: rgba(250, 250, 250, 0.9);
+    right: 0;
+    top: 78%;
+}
+
+.Featured_Food_Img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Featured_Food_Info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Featured_Food_Info>div {
+    margin: 7px;
+}
+
+.Featured_Food_Info h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Featured_Food_Info p {
+    font-size: 15px;
+    color: #9a9a9a;
+    line-height: 24px;
+}
+
+.Blog_Post_Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    flex-direction: column;
+    background-color: #f2f6ff;
+}
+
+.Blog_Post_Container>div {
+    margin: 40px;
+}
+
+.Blog_Post_Container>div>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blog_Post_Box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Blog_Post {
+    width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.Blog_Post>div {
+    margin: 10px;
+}
+
+.Blog_Post_Img {
+    width: 50%;
+    position: relative;
+}
+
+.Blog_Post_Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Blog_Post:nth-child(3) .Blog_Post_Img::before {
+    content: "11 Oct 2020";
+}
+
+.Blog_Post:nth-child(4) .Blog_Post_Img::before {
+    content: "21 Oct 2020";
+}
+
+.Blog_Post:last-child .Blog_Post_Img::before {
+    content: "03 Oct 2020";
+}
+
+.Blog_Post_Img::before {
+    content: "26 Oct 2020";
+    position: absolute;
+    padding: 8px 14px;
+    color: #f2745f;
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.Blog_Post_Info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Blog_Post_Info h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Blog_Post_Info span {
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+.Blog_Post_Info>div:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+.Blog_Post_Info p {
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+.Blog_Post_Info a {
+    font-size: 13px;
+    color: #f2745f;
+    text-decoration: none;
+}
+
+.Blog_Post_Info>div:last-child {
+    padding-top: 12px;
+}
+
+.Newsletters_Box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/Newsletters_img/signup-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Newsletters_Box>div {
+    width: 550px;
+    height: auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #5a5a5a; */
+}
+
+.Newsletters_Box>div>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.Newsletters_Box h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.Newsletters_Box input {
+    width: 350px;
+    height: 44px;
+    padding: 20px;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: #5a5a5a;
+    border: 3px solid transparent;
+    transition: 0.4s;
+    outline: none;
+}
+
+.Newsletters_Box input:focus {
+    border: 3px solid #ce614e;
+}
+
+.Newsletters_Box button {
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Newsletters_Box button:focus {
+    transform: translateY(3px);
+    border: 3px solid #ce614e;
+}
+
+.Newsletters_Box button:hover {
+    background-color: #c98b6267;
+    color: #eaf0ff;
+}
+
+.Footer {
+    width: 100%;
+    height: auto;
+    background-color: #363e50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.Footer>div {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    /* background-color: #9a9a9a; */
+}
+
+.Socialicons_Box {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Socialicons_Box ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Socialicons_Box li {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin: 5px;
+    list-style: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Socialicons_Box a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #363e50;
+    transition: 0.4s;
+}
+
+.Socialicons_Box a:hover {
+    background-color: #ce614e;
+}
+
+.Footer p {
+    color: #fff;
+    font-size: 13px;
+}
+
+
+
+@media (min-width:1024px) and (max-width:1200px) {
+    .Reservation_Box{
+        width: 800px;
+    }
+    .Featured_Food{
+        width: 300px;
+    }
+    .Featured_Food_Img{
+        height: 140px;
+    }
+    .Featured_Food_Info p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .Blog_Post{
+        width: 460px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .Banner_Box{
+        padding: 50px 0;
+    }
+    .Cook_Delecious{
+        flex-direction: column;
+    }
+    .Cook_Delecious>div:first-child{
+        width: 450px;
+        height: 300px;
+    }
+    .Cook_Delecious>div:nth-child(2){
+        width: 400px;
+    }
+    .Cook_Delecious>div:last-child{
+        width: 450px;
+        height: 300px;
+    }
+    .dishes{
+        flex-wrap: wrap;
+    }
+    .dishes a{
+        width: 250px;
+    }
+    .Reservation_Box{
+        height: auto;
+        flex-direction: column;
+    }
+    .Reservation_Img{
+        width: 70%;
+    }
+    .Reservation_Info>div{
+        flex-direction: column;
+    }
+    .Reservation_Info input{
+        flex-direction: column;
+    }
+    .Reservation_Info>div>div{
+        width: 100%;
+    }
+    .Featured_Food_Box{
+        flex-wrap: wrap;
+    }
+    .Featured_Food{
+        width: 300px;
+    }
+}
+@media (min-width:552px) and (max-width:768px){
+    label{
+        display: block;
+        background-color: #ce614e;
+        color: white;
+        padding: 5px 15px;
+        font-size: 25px;
+    }
+    #Menu_Box{
+        position: absolute;
+        top: 100%;
+        background-color: #eaf0ff;
+        overflow: hidden;
+        height: 0;
+        transition: 0.4s;
+    }
+    #Menu_Box ul{
+        flex-direction: column;
+    }
+    #Menu_Box ul li{
+        width: 80%;
+    }
+    #Menu_Box a{
+        text-align: center;
+        padding:20px;
+    }
+    #Menu_Btn:checked ~ #Menu_Box{
+        height: 350px;
+    }
+    .Cook_Delecious{
+        flex-direction: column;
+    }
+    .Cook_Delecious>div:first-child{
+        width: 450px;
+        height: 300px;
+    }
+    .Cook_Delecious>div:nth-child(2){
+        width: 400px;
+    }
+    .Cook_Delecious>div:last-child{
+        width: 450px;
+        height: 300px;
+    }
+    .dishes{
+        flex-wrap: wrap;
+    }
+    .dishes a{
+        width: 200px;
+    }
+    .Reservation_Box{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .Reservation_Img{
+        width: 70%;
+    }
+    .Reservation_Info{
+        width: 70%;
+    }
+    .Reservation_Info>div{
+        flex-direction: column;
+    }
+    .Reservation_Info input{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Reservation_Info>div>div{
+        width: 100%;
+    }
+    .Featured_Food_Box{
+        flex-wrap: wrap;
+    }
+    .Featured_Food{
+        width: 250px;
+        padding: 10px 20px;
+    }
+    .Featured_Food h3{
+        font-size: 18px;
+    }
+    .Featured_Food p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .Featured_Food_Img{
+        height: 120px;
+    }
+    .Featured_Food_Img::before {
+        top: 66%;
+    }
+    .Footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .Blog_Post_Container{
+        padding: 20px;
+    }
+
+}
+
+@media  (min-width:320px) and (max-width:552px){
+    label{
+        display: block;
+        background-color: #ce614e;
+        color: white;
+        padding: 5px 15px;
+        font-size: 25px;
+    }
+    #Menu_Box{
+        position: absolute;
+        top: 100%;
+        background-color: #eaf0ff;
+        overflow: hidden;
+        height: 0;
+        transition: 0.4s;
+    }
+    #Menu_Box ul{
+        flex-direction: column;
+    }
+    #Menu_Box ul li{
+        width: 80%;
+    }
+    #Menu_Box a{
+        text-align: center;
+        padding:20px;
+    }
+    #Menu_Btn:checked ~ #Menu_Box{
+        height: 350px;
+    }
+    .Cook_Delecious{
+        flex-direction: column;
+    }
+    .Cook_Delecious>div:first-child{
+        width: 250px;
+        height: 250px;
+    }
+    .Cook_Delecious>div:nth-child(2){
+        width: 270px;
+    }
+    .Cook_Delecious>div:last-child{
+        width: 250px;
+        height: 250px;
+    }
+    .dishes{
+        flex-wrap: wrap;
+    }
+    .dishes a{
+        width: 200px;
+    }
+    .Reservation_Box{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .Reservation_Img{
+        width: 100%;
+    }
+    .Reservation_Info{
+        width: 100%;
+    }
+    .Reservation_Info>div{
+        flex-direction: column;
+    }
+    .Reservation_Info input{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Reservation_Info>div>div{
+        width: 100%;
+    }
+    .Featured_Food_Box{
+        flex-wrap: wrap;
+    }
+    .Featured_Food{
+        width: 250px;
+        padding: 10px 20px;
+    }
+    .Featured_Food h3{
+        font-size: 18px;
+    }
+    .Featured_Food p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .Featured_Food_Img{
+        height: 120px;
+    }
+    .Featured_Food_Img::before {
+        top: 66%;
+    }
+    .Footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .Blog_Post_Img {
+        width: 100%;
+        height: 200px;
+    }   
+    .Blog_Post_Container{
+        padding: 5px;
+    }
+    .Blog_Post_Info{
+        padding: 0 20px;
+        width: 100%;
+    }
+    .Blog_Post{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Banner_Box{
+        padding: 10px 0;
+    }
+    .Banner_Box>div h1{
+        font-size: 26px;
+    }
+    .Banner_Box>div h4{
+        padding: 51px;
+    }
+    .Reservation_Container>div>h2{
+        padding: 25px;
+    }
+    .Newsletters_Box>div>div{
+        flex-direction: column;
+    }
+    .Newsletters_Box input {
+        width: 100%;
+    }
+    .Newsletters_Box button{
+        padding: 10px 70px;
+        transform: translateY(15px);
+    }
+}
